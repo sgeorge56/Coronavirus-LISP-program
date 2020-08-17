@@ -1,0 +1,248 @@
+
+(property scale 69)
+
+(vrl_instance mbbptfzr question [(= question_type single_choice) (= size {168 48}) (= selected 1)] 84 468 [(text 1 `Iran` [(= visible 2) (= edited 1)]) (text 2 `Have you travelled to Iran in the last 14 days` [(= visible 2) (= edited 1)]) (text 3 `Also answer yes if you have passed through, even if you did not leave the airport` [(= visible 2) (= edited 1)])])
+
+(vrl_instance lxpartff question [(= question_type single_choice) (= size {144 48}) (= selected 1)] 48 588 [(text 1 `South Korea` [(= visible 2) (= edited 1)]) (text 2 `Have you travelled from Daegu or Cheongdo in South Korea in the last 14 days?` [(= visible 2) (= edited 1)]) (text 3 `Also answer yes if you have passed through, even if you did not leave the airport~M~J` [(= visible 2) (= edited 1)])])
+
+(vrl_instance zjhbtyni expression [(= size {72 24}) (= selected 1)] 96 540 [(text 1 ` no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance bmrwxgbn expression [(= size {72 24}) (= selected 1)] 180 540 [(text 1 ` yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance rwrlomhn expression [(= size {72 24}) (= selected 1)] 96 660 [(text 1 ` no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance prcrelci expression [(= size {72 24}) (= selected 1)] 180 660 [(text 1 ` yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance nitnrzqj question [(= question_type single_choice) (= size {156 60}) (= selected 3)] 786 126 [(text 1 `symptoms` [(= visible 2) (= edited 1)]) (text 2 `Do you have any of these symptoms? High Temperature, Cough, Shortness of Breath~M~J` [(= visible 2) (= edited 1)]) (text 3 `This will allow to check for Community transmission` [(= visible 2) (= edited 1)])])
+
+(vrl_instance letboysq end [(= size {204 48}) (= selected 1)] 846 276 [(text 1 `Your not infected by Coronavirus` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance htcnikiy start [(= size {72 36}) (= selected 1)] 828 42 [(text 1 `next` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance barduhdx expression [(= size {72 24}) (= selected 1)] 876 204 [(text 1 `no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance lqkdgolw expression [(= size {72 24}) (= selected 1)] 768 204 [(text 1 ` yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance ezlehkag expression [(= size {72 24}) (= selected 1)] 1224 540 [(text 1 ` >50` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance nvcaywwl expression [(= size {72 24}) (= selected 1)] 1104 540 [(text 1 ` >20 and =<50` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance opyhqmqc end [(= size {72 48}) (= selected 1)] 1008 588 [(text 1 `Take Aspirin and Rest, Monitor` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance ehwrovuk expression [(= size {72 36}) (= selected 1)] 1008 534 [(text 1 `=< 20` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance leqklmea question [(= question_type single_choice) (= size {84 61}) (= selected 3)] 1122 606 [(text 1 `Age` [(= visible 2) (= edited 1)]) (text 2 `Are you aged over 60?` [(= visible 2) (= edited 1)]) (text 3 `Over 60 are prone to be at Danger` [(= visible 2) (= edited 1)])])
+
+(vrl_instance brjattdg expression [(= size {72 36}) (= selected 1)] 1188 690 [(text 1 ` yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance gtrwdhvn expression [(= size {72 24}) (= selected 1)] 1080 696 [(text 1 ` no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance irjixnqf end [(= size {72 36}) (= selected 1)] 1080 750 [(text 1 `Recommneded to have COVID-19 test` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance dvuuoovq end [(= size {84 36}) (= selected 1)] 1230 594 [(text 1 `Please Call NHS111 to get Tested!!!` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance liefmvcb question [(= question_type integer_input) (= size {156 48}) (= selected 1)] 654 360 [(text 1 `head` [(= visible 2) (= edited 1)]) (text 2 `How sure of a headache range from 0 to 10` [(= visible 2) (= edited 1)]) (text 3 `a headache is also an indication of a fever` [(= visible 2) (= edited 1)])])
+
+(vrl_instance odsrkgif question [(= question_type integer_input) (= size {108 60}) (= selected 1)] 858 654 [(text 1 `dry` [(= visible 2) (= edited 1)]) (text 2 `How sure are you of a dry cough on a scale of 0 to 10` [(= visible 2) (= edited 1)]) (text 3 `Dry cough is one of the main symptoms of COVID-19` [(= visible 2) (= edited 1)])])
+
+(vrl_instance tmgpflnd continue [(= size {120 24}) (= selected 1)] 852 828 [(text 1 `nextpart2` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance vldhxtdw start [(= size {84 24}) (= selected 1)] 1110 348 [(text 1 `nextpart2` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance qicyewdf expression [(= size {72 24}) (= selected 1)] 312 624 [(text 1 `no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance plprajzq expression [(= size {72 24}) (= selected 1)] 408 624 [(text 1 `yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance daqplekq question [(= size {84 72}) (= selected 2) (= question_type single_choice)] 354 528 [(text 1 `Contact` [(= visible 2) (= edited 1)]) (text 2 ` Have you been in contact with anyone who might have the virus?` [(= visible 2) (= edited 1)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance agkbwetp expression [(= size {72 24}) (= selected 1)] 528 480 [(text 1 `yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance kctuesko elbow [(= size {12 12})] 330 198 [])
+
+(vrl_instance zrapkrlv elbow [(= size {12 12})] 342 246 [])
+
+(vrl_instance qhfguwyt elbow [(= size {12 12})] 354 270 [])
+
+(vrl_instance nrimcvlw elbow [(= size {12 12})] 366 318 [])
+
+(vrl_instance mzuwevuc elbow [(= size {12 12})] 546 246 [])
+
+(vrl_instance nnkdskjk code [(= size {96 36}) (= selected 1)] 348 474 [(text 1 `new_value(counter, 0).` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance qsefnzhq code [(= size {96 36}) (= selected 1)] 432 126 [(text 1 `new_value(count,0).` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance lhqgvmpz statement [(= size {144 60}) (= selected 3)] 660 450 [(text 1 `min` [(= visible 2) (= edited 1)]) (text 2 `Min` [(= visible 2) (= edited 1)]) (text 3 `Val1 is temp/10, Val2 is head/10, (Val1 =< Val2, Min = Val1; Min = Val2)` [(= visible 2) (= edited 1)])])
+
+(vrl_instance kvwmqpbj statement [(= size {133 61}) (= selected 3)] 846 570 [(text 1 `cfflu` [(= visible 2) (= edited 1)]) (text 2 `Fcf` [(= visible 2) (= edited 1)]) (text 3 `Vflu is breath/10, (fevercf =< Vflu, Cff = fevercf; Cff = Vflu), Fcf is Cff * 0.19` [(= visible 2) (= edited 1)])])
+
+(vrl_instance qfrmjhys statement [(= size {204 72}) (= selected 3)] 834 732 [(text 1 `cfdry` [(= visible 2) (= edited 1)]) (text 2 `Mcf` [(= visible 2) (= edited 1)]) (text 3 `Val3 is dry/10, (fevercf =< Val3, Cfm = fevercf;Cfm = Val3), Mcf is Cfm * 0.70` [(= visible 2) (= edited 1)])])
+
+(vrl_instance uuxvhzed continue [(= size {84 24}) (= selected 1)] 690 648 [(text 1 `nextpart1` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance vfweesva question [(= question_type integer_input) (= size {84 72}) (= selected 3)] 870 456 [(text 1 `breath` [(= visible 2) (= edited 1)]) (text 2 `how sure of shortness of breath on range of 0 to 10` [(= visible 2) (= edited 1)]) (text 3 `` [(= visible 2) (= edited 1)])])
+
+(vrl_instance pxeomxkt start [(= size {72 24}) (= selected 1)] 876 384 [(text 1 `nextpart1` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance ryhetpsd code [(= size {72 36}) (= selected 1)] 168 702 [(text 1 `new_value(counter,0)` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance lirhxldu expression [(= size {72 24}) (= selected 1)] 60 276 [(text 1 `no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance rfzpfcuf expression [(= size {72 24}) (= selected 1)] 180 276 [(text 1 `yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance nvszdypg code [(= size {72 36}) (= selected 1)] 264 702 [(text 1 `new_value(count,0)` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance itxmuicz continue [(= size {72 36}) (= selected 1)] 396 702 [(text 1 `next` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance hliosqep expression [(= size {72 24}) (= selected 1)] 360 360 [(text 1 ` no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance nrefseca question [(= question_type single_choice) (= size {120 60}) (= selected 1)] 504 342 [(text 1 `Length` [(= visible 2) (= edited 1)]) (text 2 `Has 14 days past since travel?` [(= visible 2) (= edited 1)]) (text 3 `14 days is the usual incubation period for COVID-19` [(= visible 2) (= edited 1)])])
+
+(vrl_instance idnvfakx question [(= question_type single_choice) (= size {168 60}) (= selected 1)] 72 198 [(text 1 `China` [(= visible 2) (= edited 1)]) (text 2 `Have you been to Hubei Province` [(= visible 2) (= edited 1)]) (text 3 `This will provide an indication ` [(= visible 2) (= edited 1)])])
+
+(vrl_instance ayiqmjgo code [(= size {96 36}) (= selected 1)] 108 150 [(text 1 `new_value(counter,0).` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance bicyyfup code [(= size {96 24}) (= selected 1)] 108 108 [(text 1 `new_value(count,0).` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance iczgzuqo start [(= size {72 24}) (= selected 1)] 120 72 [(text 1 `start1` [(= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance tnjgnvkd expression [(= size {72 24}) (= selected 1)] 84 420 [(text 1 `no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance xmjnpaoc expression [(= size {72 24}) (= selected 1)] 180 420 [(text 1 `yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance psnpkyvn question [(= question_type single_choice) (= size {156 60}) (= selected 3)] 78 330 [(text 1 `Italy` [(= visible 2) (= edited 1)]) (text 2 `Have you travelled to Italy in the last 14 days` [(= visible 2) (= edited 1)]) (text 3 `14 days is the incubation period` [(= visible 2) (= edited 1)])])
+
+(vrl_instance pqwtyzgd code [(= size {96 36}) (= selected 1)] 348 414 [(text 1 `new_value(count,0.06)` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance miuxmyeg code [(= size {108 24}) (= selected 1)] 426 660 [(text 1 `new_value(counter, 0.03)` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance ydwpndlk question [(= question_type integer_input) (= size {168 72}) (= selected 2)] 648 264 [(text 1 `temp` [(= visible 2) (= edited 1)]) (text 2 `How sure of temperature above 37.5 degrees, Range 0 to 10` [(= visible 2) (= edited 1)]) (text 3 `a temperature will help determine a fever` [(= visible 2) (= edited 1)])])
+
+(vrl_instance mvlthdhh statement [(= size {144 60}) (= selected 3)] 660 546 [(text 1 `fevercf` [(= visible 2) (= edited 1)]) (text 2 `Cf` [(= visible 2) (= edited 1)]) (text 3 `Cf is min * (0.8 + counter+count)` [(= visible 2) (= edited 1)])])
+
+(vrl_instance obcrcnan statement [(= size {180 72}) (= selected 3)] 1062 432 [(text 1 `illness` [(= visible 2) (= edited 1)]) (text 2 `Per` [(= visible 2) (= edited 1)]) (text 3 `(cfflu =< cfdry, Sick = flu, Maxcf = cfdry; cfflu = cfdry, Sick = both, Maxcf = cfdry; Sick = covid19, Maxcf = fevercf), Per is Maxcf * 100, flash('Your illness is ', Sick, ' with ', Per, ' pc chance')` [(= visible 2) (= edited 1)])])
+
+(vrl_instance {idnvfakx rfzpfcuf} link [(= size {0 0})] idnvfakx rfzpfcuf [arrow line])
+
+(vrl_instance {idnvfakx lirhxldu} link [(= size {0 0})] idnvfakx lirhxldu [arrow line])
+
+(vrl_instance {lirhxldu psnpkyvn} link [(= size {0 0})] lirhxldu psnpkyvn [arrow line])
+
+(vrl_instance {nitnrzqj barduhdx} link [(= size {0 0})] nitnrzqj barduhdx [arrow line])
+
+(vrl_instance {nitnrzqj lqkdgolw} link [(= size {0 0})] nitnrzqj lqkdgolw [arrow line])
+
+(vrl_instance {barduhdx letboysq} link [(= size {0 0})] barduhdx letboysq [arrow line])
+
+(vrl_instance {psnpkyvn tnjgnvkd} link [(= size {0 0})] psnpkyvn tnjgnvkd [arrow line])
+
+(vrl_instance {tnjgnvkd mbbptfzr} link [(= size {0 0})] tnjgnvkd mbbptfzr [arrow line])
+
+(vrl_instance {mbbptfzr zjhbtyni} link [(= size {0 0})] mbbptfzr zjhbtyni [arrow line])
+
+(vrl_instance {zjhbtyni lxpartff} link [(= size {0 0})] zjhbtyni lxpartff [arrow line])
+
+(vrl_instance {psnpkyvn xmjnpaoc} link [(= size {0 0})] psnpkyvn xmjnpaoc [arrow line])
+
+(vrl_instance {mbbptfzr bmrwxgbn} link [(= size {0 0})] mbbptfzr bmrwxgbn [arrow line])
+
+(vrl_instance {lxpartff rwrlomhn} link [(= size {0 0})] lxpartff rwrlomhn [arrow line])
+
+(vrl_instance {lxpartff prcrelci} link [(= size {0 0})] lxpartff prcrelci [arrow line])
+
+(vrl_instance {htcnikiy nitnrzqj} link [(= size {0 0})] htcnikiy nitnrzqj [arrow line])
+
+(vrl_instance {daqplekq plprajzq} link [(= size {0 0})] daqplekq plprajzq [arrow line])
+
+(vrl_instance {daqplekq qicyewdf} link [(= size {0 0})] daqplekq qicyewdf [arrow line])
+
+(vrl_instance {qicyewdf itxmuicz} link [(= size {0 0})] qicyewdf itxmuicz [arrow line])
+
+(vrl_instance {ydwpndlk liefmvcb} link [(= size {0 0})] ydwpndlk liefmvcb [arrow line])
+
+(vrl_instance {liefmvcb lhqgvmpz} link [(= size {0 0})] liefmvcb lhqgvmpz [arrow line])
+
+(vrl_instance {lhqgvmpz mvlthdhh} link [(= size {0 0})] lhqgvmpz mvlthdhh [arrow line])
+
+(vrl_instance {mvlthdhh uuxvhzed} link [(= size {0 0})] mvlthdhh uuxvhzed [arrow line])
+
+(vrl_instance {odsrkgif qfrmjhys} link [(= size {0 0})] odsrkgif qfrmjhys [arrow line])
+
+(vrl_instance {qfrmjhys tmgpflnd} link [(= size {0 0})] qfrmjhys tmgpflnd [arrow line])
+
+(vrl_instance {vldhxtdw obcrcnan} link [(= size {0 0})] vldhxtdw obcrcnan [arrow line])
+
+(vrl_instance {obcrcnan ehwrovuk} link [(= size {0 0})] obcrcnan ehwrovuk [arrow line])
+
+(vrl_instance {obcrcnan nvcaywwl} link [(= size {0 0})] obcrcnan nvcaywwl [arrow line])
+
+(vrl_instance {ehwrovuk opyhqmqc} link [(= size {0 0})] ehwrovuk opyhqmqc [arrow line])
+
+(vrl_instance {lqkdgolw ydwpndlk} link [(= size {0 0})] lqkdgolw ydwpndlk [])
+
+(vrl_instance {nnkdskjk daqplekq} link [(= size {0 0})] nnkdskjk daqplekq [arrow line])
+
+(vrl_instance {plprajzq miuxmyeg} link [(= size {0 0})] plprajzq miuxmyeg [arrow line])
+
+(vrl_instance {miuxmyeg itxmuicz} link [(= size {0 0})] miuxmyeg itxmuicz [arrow line])
+
+(vrl_instance {vfweesva kvwmqpbj} link [(= size {0 0})] vfweesva kvwmqpbj [])
+
+(vrl_instance {kvwmqpbj odsrkgif} link [(= size {0 0})] kvwmqpbj odsrkgif [])
+
+(vrl_instance {nrefseca agkbwetp} link [(= size {0 0})] nrefseca agkbwetp [arrow line])
+
+(vrl_instance {nrefseca hliosqep} link [(= size {0 0})] nrefseca hliosqep [arrow line])
+
+(vrl_instance {pqwtyzgd nnkdskjk} link [(= size {0 0})] pqwtyzgd nnkdskjk [arrow line])
+
+(vrl_instance {hliosqep pqwtyzgd} link [(= size {0 0})] hliosqep pqwtyzgd [arrow line])
+
+(vrl_instance {agkbwetp nnkdskjk} link [(= size {0 0})] agkbwetp nnkdskjk [arrow line])
+
+(vrl_instance {obcrcnan ezlehkag} link [(= size {0 0})] obcrcnan ezlehkag [arrow line])
+
+(vrl_instance {ezlehkag dvuuoovq} link [(= size {0 0})] ezlehkag dvuuoovq [arrow line])
+
+(vrl_instance {nvcaywwl leqklmea} link [(= size {0 0})] nvcaywwl leqklmea [arrow line])
+
+(vrl_instance {brjattdg dvuuoovq} link [(= size {0 0})] brjattdg dvuuoovq [arrow line])
+
+(vrl_instance {leqklmea brjattdg} link [(= size {0 0})] leqklmea brjattdg [arrow line])
+
+(vrl_instance {leqklmea gtrwdhvn} link [(= size {0 0})] leqklmea gtrwdhvn [arrow line])
+
+(vrl_instance {gtrwdhvn irjixnqf} link [(= size {0 0})] gtrwdhvn irjixnqf [arrow line])
+
+(vrl_instance {kctuesko qsefnzhq} link [(= size {0 0})] kctuesko qsefnzhq [arrow line])
+
+(vrl_instance {rfzpfcuf kctuesko} link [(= size {0 0})] rfzpfcuf kctuesko [arrow line])
+
+(vrl_instance {zrapkrlv qsefnzhq} link [(= size {0 0})] zrapkrlv qsefnzhq [arrow line])
+
+(vrl_instance {xmjnpaoc zrapkrlv} link [(= size {0 0})] xmjnpaoc zrapkrlv [arrow line])
+
+(vrl_instance {qhfguwyt qsefnzhq} link [(= size {0 0})] qhfguwyt qsefnzhq [arrow line])
+
+(vrl_instance {bmrwxgbn qhfguwyt} link [(= size {0 0})] bmrwxgbn qhfguwyt [arrow line])
+
+(vrl_instance {nrimcvlw qsefnzhq} link [(= size {0 0})] nrimcvlw qsefnzhq [arrow line])
+
+(vrl_instance {prcrelci nrimcvlw} link [(= size {0 0})] prcrelci nrimcvlw [arrow line])
+
+(vrl_instance {mzuwevuc nrefseca} link [(= size {0 0})] mzuwevuc nrefseca [arrow line])
+
+(vrl_instance {qsefnzhq mzuwevuc} link [(= size {0 0})] qsefnzhq mzuwevuc [arrow line])
+
+(vrl_instance {pxeomxkt vfweesva} link [(= size {0 0})] pxeomxkt vfweesva [arrow line])
+
+(vrl_instance {bicyyfup ayiqmjgo} link [(= size {0 0})] bicyyfup ayiqmjgo [arrow line])
+
+(vrl_instance {ayiqmjgo idnvfakx} link [(= size {0 0})] ayiqmjgo idnvfakx [arrow line])
+
+(vrl_instance {iczgzuqo bicyyfup} link [(= size {0 0})] iczgzuqo bicyyfup [arrow line])
+
+(vrl_instance {rwrlomhn ryhetpsd} link [(= size {0 0})] rwrlomhn ryhetpsd [arrow line])
+
+(vrl_instance {ryhetpsd nvszdypg} link [(= size {0 0})] ryhetpsd nvszdypg [arrow line])
+
+(vrl_instance {nvszdypg itxmuicz} link [(= size {0 0})] nvszdypg itxmuicz [arrow line])
